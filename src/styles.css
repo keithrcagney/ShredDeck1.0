@@ -1,0 +1,72 @@
+* {
+    font-family: 'Ubuntu Light', 'Century Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:rgba(255, 255, 255, 1.0);
+    background-color: rgba(28, 58, 19, 0.8);
+}
+
+body h1{
+    font-weight: bolder;
+    font-size: 10em;
+}
+
+.infopane {
+    padding: 20px;
+    font-style: italic;
+}
+
+.container {
+    padding: 0px;
+    margin: 10px;
+    max-width: 700px;
+    box-shadow: 10px 15px 39px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    border: 1px solid brown;
+}
+
+.bookCreator {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 10px 15px 39px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+
+.innerbox {
+    padding: 10px;
+    width:95%;
+    margin: 15px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+}
+
+.bookShelf {
+    overflow: auto;
+    padding-top: 10px;
+}
+
+.shelfBacker {
+    height: 85px;
+    background-color: black;
+}
+
+#book {
+    text-align: center;
+    text-orientation: upright;
+    background-color: red;
+    max-width: 30px;
+    border: 2px solid brown;
+    height: 75px;
+}
+
+div.page_display {
+    max-width: 100px;
+    border: 1px solid gray;
+    max-height: 1000px;
+    overflow-x: wrap;
+    overflow-y: scroll;
+}
+
+input#titleField {
+    margin: 10px;
+}
